@@ -67,7 +67,7 @@ function Prediction() {
 
     try {
       setLoading(true);
-      const response = await fetch("https://diabetes-detection-system-1-fx8n.onrender.com/predict",{
+      const response = await fetch("https://diabetes-detection-system-1-fx8n.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
